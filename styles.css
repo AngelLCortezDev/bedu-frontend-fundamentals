@@ -17,6 +17,14 @@ p {
     font-size: 20px;
 }
 
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+
 .trial-email > button {
     color: #fff;
     background-color: #025157;
@@ -32,7 +40,7 @@ li {
     margin: 0 25px;
 }
 
-.header>* {
+.header > * {
     display: inline-block;
     font-size: 16px;
     line-height: 45px;
@@ -73,6 +81,7 @@ li {
 
 .actions>button {
     background-color: #67b54b;
+    color: #fff;
     padding: 12px 14px;
     border-radius: 5px;
     border: none;
@@ -93,11 +102,12 @@ li {
 .video-promo{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .video-promo > img {
-    width: 15%;
-    margin: 15px;
+    width: 120px;
+    margin-top: 10;
 }
 
 .publish {
