@@ -17,7 +17,7 @@ p {
     font-size: 20px;
 }
 
-button {
+.trial-email > button {
     color: #fff;
     background-color: #025157;
 }
@@ -81,4 +81,18 @@ li {
 .main {
     margin-top: 140px;
     text-align: center;
+}
+
+.promo {
+
+}
+
+.promo > article > h2 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: #025157;
+}
+
+.promo > article > p {
+    color: #343434;
 }
