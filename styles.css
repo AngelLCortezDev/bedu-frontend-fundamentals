@@ -90,6 +90,16 @@ li {
     margin: 100px auto;
 }
 
+.video-promo{
+    display: flex;
+    flex-direction: column;
+}
+
+.video-promo > img {
+    width: 15%;
+    margin: 15px;
+}
+
 .publish {
     margin-left: 30px;
 }
