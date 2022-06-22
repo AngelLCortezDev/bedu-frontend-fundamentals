@@ -238,3 +238,8 @@ li {
 .circle-brand img {
     max-width: 70%;
 }
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
