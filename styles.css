@@ -242,7 +242,59 @@ li {
 .features {
     display: grid;
     height: 660px;
-    /* grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr); */
+    padding: 50px 100px;
+    background-color: #025157;
     grid-template: repeat(2,1fr)/repeat(2,1fr);
+    gap: 30px
+}
+
+.features-card{
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.text-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 10%;
+    justify-content: center;
+}
+
+.text-card img {
+    align-self: center;
+    width: 20%;
+}
+
+.text-card h2 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.text-card p {
+    font-family: 'Montserrat';
+    font-size: 1rem;
+}
+
+.text-card a {
+    font-family: sans-serif;
+    color:#67b54b;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.img-card {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-card img{
+    width: 100%;
+    position: absolute;
+    left: 30%;
 }
