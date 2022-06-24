@@ -373,6 +373,19 @@ li {
 }
 
 @media (max-width: 575px){
+
+    .navbar{
+        display: none;
+    }
+
+    .actions{
+        display: none;
+    }
+
+    .main {
+        margin-top: 90px;
+    }
+
     h1 {
         font-size: 30px;
     }
