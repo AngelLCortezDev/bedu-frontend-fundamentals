@@ -62,6 +62,10 @@ li {
     width: 15%;
 }
 
+#navbar-logo {
+    width: 25%;
+}
+
 .logo>img {
     width: 15%;
 }
