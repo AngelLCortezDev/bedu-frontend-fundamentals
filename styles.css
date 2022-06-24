@@ -398,13 +398,31 @@ li {
         flex-direction: column;
     }
 
-    .publish form div{
-        height: 50px;
-        margin-top: 10px;
-    }
-
     .publish form input{
         width: 65%;;
+    }
+
+    .promo {
+        flex-direction: column;
+        max-width: 90%;
+    }
+    
+    .video-promo > video {
+        width: 100%;
+    }
+    
+    .publish {
+        margin-top: 10px;
+    }
+    
+    .publish > h3 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+    
+    .features{
+        height: 1220px;
+        grid-template: repeat(4,1fr) / 1fr;
     }
 }
 
