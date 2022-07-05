@@ -105,6 +105,10 @@ li {
     text-align: center;
 }
 
+.texto-boton:hover {
+    background-color: #81d742;
+}
+
 .banner>img {
     width: 70%;
 }
