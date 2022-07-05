@@ -1,0 +1,23 @@
+{
+  "name": "bedu-frontend-fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelLCortezDev/bedu-frontend-fundamentals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelLCortezDev/bedu-frontend-fundamentals/issues"
+  },
+  "homepage": "https://github.com/AngelLCortezDev/bedu-frontend-fundamentals#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
