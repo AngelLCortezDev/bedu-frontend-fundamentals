@@ -1,0 +1,106 @@
+body {
+    background-color: #fffbf7;
+}
+
+h1 {
+    color: #025157;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 900;
+}
+
+p {
+    color: #8b8b8bcc;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.green-matcha-button {
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: #025157;
+    color: #fff;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #fffbf7;
+}
+
+.trial-email>button {
+    color: #fff;
+    background-color: #025157;
+}
+
+.header {
+    margin: 0px 20px 0px;
+    font-size: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 25px;
+}
+
+.header>* {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 15%;
+}
+
+#navbar-logo {
+    width: 25%;
+}
+
+.logo>img {
+    width: 10%;
+}
+
+.navbar {
+    background-color: #fffbf7;
+    text-align: left;
+    color: #025157;
+    font-weight: 500;
+}
+
+.actions {
+
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.actions>* {
+    margin: 0 10px;
+}
+
+.actions>a {
+    color: #67b54b;
+}
+
+.actions>button {
+    background-color: #67b54b;
+    color: #fff;
+    padding: 12px 14px;
+    border-radius: 5px;
+    border: none;
+}
+
+.main {
+    margin-top: 140px;
+    text-align: center;
+}

@@ -34,7 +34,7 @@ p {
     background-color: #fffbf7;
 }
 
-.trial-email > button {
+.trial-email>button {
     color: #fff;
     background-color: #025157;
 }
@@ -49,7 +49,7 @@ li {
     margin: 0 25px;
 }
 
-.header > * {
+.header>* {
     display: inline-block;
     font-size: 16px;
     line-height: 45px;
@@ -71,6 +71,7 @@ li {
 }
 
 .navbar {
+    background-color: #fffbf7;
     text-align: left;
     color: #025157;
     font-weight: 500;
@@ -104,7 +105,7 @@ li {
     text-align: center;
 }
 
-.banner > img {
+.banner>img {
     width: 70%;
 }
 
@@ -115,13 +116,13 @@ li {
     margin: 100px auto;
 }
 
-.video-promo{
+.video-promo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.video-promo > img {
+.video-promo>img {
     width: 120px;
     margin-top: 10;
 }
@@ -130,17 +131,17 @@ li {
     margin-left: 30px;
 }
 
-.publish > h3 {
+.publish>h3 {
     font-family: 'Montserrat';
     font-weight: 900;
     color: #025157;
 }
 
-.publish > p {
+.publish>p {
     color: #343434;
 }
 
-.achievements {
+/* .achievements {
     display: flex;
     background-color: #a1d683;
     padding: 50px 150px;
@@ -240,12 +241,158 @@ li {
 
 .circle-brand img {
     max-width: 70%;
+} */
+
+.success-stories {
+    background-color: #a1d683;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
+.success-stories .overview {
+    flex: 2;
+    padding-right: 100px;
+}
+
+.success-stories .overview h2 {
+    font-family: "Montserrat";
+    font-size: 51px;
+    line-height: 61px;
+    color: #025157;
+}
+
+.success-stories .overview p {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.success-stories .overview button {
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+}
+
+.success-stories .overview img {
+    width: 500px;
+    max-width: 100%;
+}
+
+.success-stories .card {
+    max-width: 370px;
+    width: 100%;
+    min-height: 600px;
+    margin: 0 auto;
+}
+
+/* Con object-fit, hacemos que la imagen se ajuste a la medida de su contenedor y limitamos su alto */
+.success-stories .card img {
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+.success-stories .card .card-body {
+    max-width: 370px;
+    width: 100%;
+    position: relative;
+    padding: 40px 1rem 1rem;
+}
+
+.success-stories .card .card-body h4 {
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+    font-family: "Slabo 27px", serif;
+}
+
+.success-stories .card .card-body h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.success-stories .card .card-body .results {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.success-stories .card .card-body .results img {
+    width: 26px;
+    margin-right: 20px;
+}
+
+.success-stories .card .card-body .results p {
+    margin: 0;
+}
+
+.success-stories .card .card-footer button {
+    display: block;
+    margin-left: 0;
+    border-radius: 5px;
+    font-size: 13;
+    font-weight: 600;
+    padding: 12px 20px;
+    width: 100%;
+    background-color: #025157;
+    color: #fff;
+    border: none;
+}
+
+.success-stories .card .card-footer {
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+}
+
+.success-stories .card .card-body .card-circle {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -45px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.success-stories .card .card-body .card-circle.everly {
+    background-color: #f9da73;
+    border: 5px solid #f9da73;
+}
+
+.success-stories .card .card-body .card-circle.everly img,
+.success-stories .card .card-body .card-circle.summit img,
+.success-stories .card .card-body .card-circle.mambe img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.success-stories .card .card-body .card-circle.summit {
+    background-color: #81d742;
+    border: 5px solid #81d742;
+}
+
+.success-stories .card .card-body .card-circle.mambe {
+    background-color: #ef7179;
+    border: 5px solid #ef7179;
+}
+
 
 .features {
     display: grid;
     height: 660px;
-    grid-template: repeat(2,1fr)/repeat(2,1fr);
+    grid-template: repeat(2, 1fr)/repeat(2, 1fr);
     background-color: #025157;
     padding: 5% 10%;
     overflow: hidden;
@@ -261,34 +408,34 @@ li {
     padding: 5%;
 }
 
-.features .features-card .features-content{
+.features .features-card .features-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.features .features-card .features-content > * {
+.features .features-card .features-content>* {
     margin-top: 0;
     margin-bottom: 1rem;
 }
 
-.features .features-card .features-content img{
+.features .features-card .features-content img {
     width: 50px;
 }
 
-.features .features-card .features-content h2{
+.features .features-card .features-content h2 {
     font-family: 'Montserrat';
     font-weight: 500;
 }
 
-.features .features-card .features-content p{
+.features .features-card .features-content p {
     font-family: 'Montserrat';
     font-size: 1.1rem;
     font-weight: 400;
-    
+
 }
 
-.features .features-card .features-content a{
+.features .features-card .features-content a {
     font-family: sans-serif;
     font-weight: 600;
     color: #67b54b;
@@ -323,36 +470,36 @@ li {
     padding: 0 5%;
 }
 
-.work .work-info > *{
+.work .work-info>* {
     margin-top: 0;
     margin-bottom: 1.5rem;
 }
 
-.work .work-info p{
+.work .work-info p {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 1.1rem;
     color: #000;
 }
 
-.work .work-info a{
+.work .work-info a {
     text-decoration: none;
     color: #67b54b;
 }
 
-.work .work-info button{
+.work .work-info button {
     padding: 15px;
 }
 
 .work .work-content {
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 35px;
 }
 
 
-.work .work-content .work-card{
+.work .work-content .work-card {
     background-color: #fff;
     border: 1px solid gray;
     padding: 5px;
@@ -360,30 +507,35 @@ li {
     border-radius: 5px;
 }
 
-.work .work-content .work-card > *{
+.work .work-content .work-card>* {
     margin-top: 0;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
 
-.work .work-content .work-card img{
+.work .work-content .work-card img {
     margin: 30px 10px;
     width: 100%;
 }
 
-.work .work-content .work-card h3{
+.work .work-content .work-card h3 {
     font-family: 'Montserrat';
     color: #025157;
 }
 
-@media (max-width: 575px){
+@media (max-width: 991px) {
 
-    .navbar{
-        display: none;
+    .actions,
+    .navbar {
+        text-align: center;
     }
 
-    .actions{
-        display: none;
+    .success-stories {
+        flex-direction: column;
+        padding: 5% 15px;
     }
+}
+
+@media (max-width: 575px) {
 
     .main {
         margin-top: 90px;
@@ -393,39 +545,43 @@ li {
         font-size: 30px;
     }
 
-    .banner img{
+    .banner img {
         width: 100%;
     }
 
-    .publish form{
+    .publish form {
         flex-direction: column;
     }
 
-    .publish form input{
-        width: 65%;;
+    .publish form input {
+        width: 65%;
+        ;
     }
 
     .promo {
         flex-direction: column;
         max-width: 90%;
     }
-    
-    .video-promo > video {
+
+    .video-promo>video {
         width: 100%;
     }
-    
+
     .publish {
         margin-top: 10px;
     }
-    
-    .publish > h3 {
+
+    .publish>h3 {
         font-size: 25px;
         line-height: 1.2;
     }
-    
-    .features{
+
+    .features {
         height: 1220px;
-        grid-template: repeat(4,1fr) / 1fr;
+        grid-template: repeat(4, 1fr) / 1fr;
+    }
+
+    .success-stories {
+        flex-direction: column;
     }
 }
-
