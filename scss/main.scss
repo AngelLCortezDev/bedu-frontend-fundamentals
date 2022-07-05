@@ -89,5 +89,102 @@
       color: $gray;
     }
   }
+}
+
+.try-it {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $superlight-green;
+  padding:  5% 10%;
+
+  * {
+    margin: 10px 0;
+  }
+
+  input {
+    border-radius: 5px;
+    border-style: none;
+    height: 2.5rem;
+  }
+
+  button {
+    height: 2.5rem;
+    background-color: $dark-green-title;
+    color: $white;
+    border-style: none;
+    border-radius: 5px;
+  }
+
+  p {
+    color: $white;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+}
+
+.try-free {
+  padding: 5% 10%;
+
+  .content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: $dark-green-title;
+
+    .try-text {
+      margin: 10%;
+
+      h3 {
+        color: $white;
+      }
+
+      p {
+        font-size: 1rem;
+        color: white;
+
+        a {
+          text-decoration: none;
+          color: $light-green;
+        }
+
+      }
+
+    }
+
+    .try-form {
+      margin: 10%;
+
+      & > form {
+
+        margin-bottom: 20px;
+
+        & > input {
+          border-radius: 5px;
+          border-style: none;
+          height: 2.5rem;
+        }
+
+        & > button {
+          height: 2.5rem;
+          background-color: $light-green;
+          color: $white;
+          border-style: none;
+          border-radius: 5px;
+        }
+      }
+
+      & > p {
+        color: $try-gray;
+        font-size: 1rem;
+        font-weight: 100;
+      }
+
+    }
+
+  }
 
 }

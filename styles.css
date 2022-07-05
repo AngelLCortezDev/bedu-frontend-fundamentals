@@ -391,7 +391,7 @@ li {
 
 .features {
     display: grid;
-    height: 660px;
+    height: 900px;
     grid-template: repeat(2, 1fr)/repeat(2, 1fr);
     background-color: #025157;
     padding: 5% 10%;
