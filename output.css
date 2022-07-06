@@ -14,12 +14,23 @@
 .top-features .top-text p {
   color: black;
 }
-.top-features .top-cards img {
-  border-radius: 10px;
-}
 .top-features .top-cards .card {
   border-style: none;
   background-color: #fffbf7;
+}
+.top-features .top-cards .card img {
+  border-radius: 10px;
+}
+.top-features .top-cards .card img:hover {
+  transform: scale(0.95);
+}
+.top-features .top-cards .card .card-body h4 {
+  text-shadow: #025157 1px 1px 2px;
+  transition: color 0.3s ease-in-out, font-size 0.2s ease-in;
+}
+.top-features .top-cards .card .card-body h4:hover {
+  color: #67b54b;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=output.css.map */
