@@ -1,153 +1,25 @@
 /** colores */
 /** fuentes */
-.blog .title {
-  font-family: "Montserrat";
-  color: #135359;
+.top-features {
+  margin-top: 140px;
 }
-
-.blog {
-  background-color: #ffffff;
-  max-width: unset;
-  padding: 5% 10%;
-}
-.blog .process-list {
-  margin-top: 40px;
-  margin-bottom: 36px;
-}
-.blog .process-list .process {
-  margin-bottom: 25px;
-}
-.blog .process-list .process > div > h3 {
-  color: #025157;
-  margin-bottom: 0;
-  font-size: 30px;
-  font-weight: 500;
-}
-.blog .process-list .process > div > p {
-  color: #135359;
-  margin: 0;
-}
-.blog .process-list .process .process-icon {
-  width: 60px;
-  height: 60px;
-  margin-right: 10px;
+.top-features .top-text {
   text-align: center;
-}
-.blog .process-list .process .process-icon img {
-  height: 100%;
-}
-.blog button {
-  height: auto;
-  border-radius: 8px;
-  padding: 12px;
-  width: 180px;
-  margin-bottom: 15px;
-}
-.blog .card-title {
-  font-size: 22px;
-  color: #4a4a4a;
-}
-.blog .metadata {
-  font-size: 16px;
-}
-.blog .metadata .category {
-  color: #67b54b;
-}
-.blog .card-text {
-  color: #4a4a4a;
-  font-size: 14px;
-}
-.blog .card-text .read-more {
-  text-decoration: underline;
-}
-.blog .author img {
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-}
-.blog .author p {
-  margin-left: 5px;
-  margin-top: 10px;
-  font-weight: 500;
-  font-size: 12px;
-  color: #4a4a4a;
-}
-
-.try-it {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #96d178;
-  padding: 5% 10%;
-}
-.try-it * {
-  margin: 10px 0;
-}
-.try-it input {
-  border-radius: 5px;
-  border-style: none;
-  height: 2.5rem;
-}
-.try-it button {
-  height: 2.5rem;
-  background-color: #025157;
-  color: #ffffff;
-  border-style: none;
-  border-radius: 5px;
-}
-.try-it p {
-  color: #ffffff;
-  font-size: 1rem;
-  text-align: center;
-}
-
-.try-free {
-  padding: 5% 10%;
-}
-.try-free .content {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
   padding: 5%;
+}
+.top-features .top-text h1 {
+  color: #025157;
+  margin: 20px 0;
+}
+.top-features .top-text p {
+  color: black;
+}
+.top-features .top-cards img {
   border-radius: 10px;
-  background-color: #025157;
 }
-.try-free .content .try-text {
-  margin: 10%;
-}
-.try-free .content .try-text h3 {
-  color: #ffffff;
-}
-.try-free .content .try-text p {
-  font-size: 1rem;
-  color: white;
-}
-.try-free .content .try-text p a {
-  text-decoration: none;
-  color: #67b54b;
-}
-.try-free .content .try-form {
-  margin: 10%;
-}
-.try-free .content .try-form > form {
-  margin-bottom: 20px;
-}
-.try-free .content .try-form > form > input {
-  border-radius: 5px;
+.top-features .top-cards .card {
   border-style: none;
-  height: 2.5rem;
-}
-.try-free .content .try-form > form > button {
-  height: 2.5rem;
-  background-color: #67b54b;
-  color: #ffffff;
-  border-style: none;
-  border-radius: 5px;
-}
-.try-free .content .try-form > p {
-  color: #b3cbcd;
-  font-size: 1rem;
-  font-weight: 100;
+  background-color: #fffbf7;
 }
 
 /*# sourceMappingURL=output.css.map */
