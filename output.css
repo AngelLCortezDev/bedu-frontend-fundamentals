@@ -20,6 +20,7 @@
 }
 .top-features .top-cards .card img {
   border-radius: 10px;
+  box-shadow: 0.5px 0.5px #979797;
 }
 .top-features .top-cards .card img:hover {
   transform: scale(0.95);
